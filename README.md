@@ -2,6 +2,8 @@
 
 A simple website that monitors and displays the status of [downdetector.com](https://downdetector.com).
 
+🌐 **Live Site**: [https://rolandmarg.github.io/downdetectordowndetector.com/](https://rolandmarg.github.io/downdetectordowndetector.com/)
+
 ## About
 
 This is a meta-monitoring tool that checks if DownDetector itself is up or down. The website automatically checks the status every 30 seconds and displays the current availability status.
@@ -57,6 +59,24 @@ Works in all modern browsers that support:
 - Fetch API
 - ES6+ JavaScript
 - CSS Grid and Flexbox
+
+## Deployment
+
+This site is hosted on **GitHub Pages**. 
+
+The repository is automatically deployed to: `https://rolandmarg.github.io/downdetectordowndetector.com/`
+
+### To set up a custom domain:
+
+1. Add a `CNAME` file in the root with your domain (e.g., `downdetectordowndetector.com`)
+2. Configure DNS records:
+   - Add a `CNAME` record pointing your domain to `rolandmarg.github.io`
+   - Or add `A` records pointing to GitHub's IPs:
+     - 185.199.108.153
+     - 185.199.109.153
+     - 185.199.110.153
+     - 185.199.111.153
+3. Enable the custom domain in GitHub repository settings → Pages → Custom domain
 
 ## License
 
