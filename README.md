@@ -6,7 +6,7 @@
 
 On December 5, 2025, a Cloudflare outage disrupted **28% of Cloudflare's HTTP traffic** for approximately 25 minutes, taking down major websites including LinkedIn, Shopify, DoorDash, and ironically... **Downdetector.com** itself.
 
-This website is a joke solution to that problem. 😄
+This website is just a joke, not an actual solution. 😄
 
 ## Setup
 
