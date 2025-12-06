@@ -14,11 +14,38 @@ This is a meta-monitoring tool that checks if DownDetector itself is up or down.
 - Visual status indicators
 - Response time monitoring
 
-## Setup
+## Local Development
 
-1. Clone or download this repository
-2. Open `index.html` in a web browser
-3. The website will automatically start checking the status
+### Option 1: Open Directly
+Simply open `index.html` in your web browser:
+```bash
+open index.html  # macOS
+# or double-click the file in your file explorer
+```
+
+### Option 2: Use a Local Server (Recommended)
+
+**Using Python:**
+```bash
+# Python 3
+python3 -m http.server 8000
+
+# Then open http://localhost:8000 in your browser
+```
+
+**Using Node.js (with npx):**
+```bash
+npx serve
+# or
+npx http-server
+```
+
+**Using PHP:**
+```bash
+php -S localhost:8000
+```
+
+After starting the server, open `http://localhost:8000` in your browser.
 
 ## How It Works
 
